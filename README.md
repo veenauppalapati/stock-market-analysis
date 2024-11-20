@@ -5,11 +5,15 @@ This is project 1 for Rutgers AI Bootcamp
 
 - Veena Uppalapati 
 
-- Vas Prabhudesai
+- Vassudeo Prabhudesai
 
 ---
 
+
 **Project Question**: Are these companies viable investment opportunities, and can we expect future growth based on an analysis of their financial health metrics and stock market performance?
+
+[Link to the Presentation](https://docs.google.com/presentation/d/1jm3VIDY-nqCR6jQcDC8Q5CWNv46OxdVCQqXErMCp5y4/edit#slide=id.g2d5c37a4785_1_530)
+
 
 ---
 
@@ -40,15 +44,42 @@ We will be sourcing data from two primary sources:
 ```makefile
 ALPHA_API_KEY=your_api_key_here
 ```
+---
 
+## Visualizations
+
+1. **Historical data trends**
+This section provides insights into the historical performance of the company through two visualizations:
+    - **Graph 1: Yearly Historical Data (Regular Scale)**
+        Displays the trends in yearly data on a standard linear scale to highlight overall patterns and changes.
+    - **Graph 2: Yearly Historical Data (Logarithmic Scale)**
+        Uses a logarithmic scale to visualize data with large variations, making it easier to identify relative changes and trends.
+
+
+2. **Forecasting with prophet**
+Forecasted trends using Prophet for key company metrics:
+    - **Graph 3: LLY Forecasted Trend**
+        Predicts the future trends for LLY based on historical data.
+    - **Graph 4: NVDA Forecasted Trend**
+        Displays the projected trends for NVDA, aiding in future investment planning.
+
+
+3.  **Visualizations for Company Financials**
+Bar charts showcasing the company's performance across critical financial metrics:
+    - **Graph 5: Free Cash Flow (FCF)**
+    Highlights the cash generated after accounting for operating expenses and capital expenditures, offering insights into the company's liquidity and financial health.
+    - **Graph 6: Net Profit Margin**
+    Depicts the percentage of revenue remaining as profit after expenses, demonstrating the company's profitability.
+    - **Graph 7: Return on Investment (ROI)**
+    Reflects the efficiency of the company's investments in generating returns, providing a comprehensive view of performance.
+
+---
 
 ## Formulas
 
-- **P/E Ratio** = Current Stock price / (Company's income / number of outstanding shares)
-- ROIC 
-- Net Profit Margin = (Net Income / Total Revenue) * 100
+- **Free Cash Flow (FCF)** = (Operating Cash Flow - Capital Expenditures) * 100
+- **Return of Investment (ROI)** = ((Net Income - Capital Expenditures ) / Capital Expenditures) * 100
+- **Net Profit Margin (%)** = (Net Income / Total Revenue) * 100
 
-Visualizations
-1. 15 graphs : Each shows a relationship between the `stock trend` and financial trend (two line graphs that displays `Free cash flow` and `Net Profit Margin`)
 
 
