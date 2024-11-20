@@ -1,6 +1,13 @@
 # stock-market-analysis
 This is project 1 for Rutgers AI Bootcamp
 
+## Table of Contents
+- [Team Members](#team-members)
+- [Project Structure](#project-structure)
+- [Project Setup](#project-setup)
+- [Visualization](#visualizations)
+- [Formulas](#formulas)
+
 ## Team Members
 
 - Veena Uppalapati 
@@ -10,9 +17,20 @@ This is project 1 for Rutgers AI Bootcamp
 ---
 
 
-**Project Question**: Are these companies viable investment opportunities, and can we expect future growth based on an analysis of their financial health metrics and stock market performance?
+
+**Project Question**: Are these companies viable investment opportunities, and can we anticipate future growth based on an analysis of their financial health metrics and long-term stock market performance?
 
 [Link to the Presentation](https://docs.google.com/presentation/d/1jm3VIDY-nqCR6jQcDC8Q5CWNv46OxdVCQqXErMCp5y4/edit#slide=id.g2d5c37a4785_1_530)
+
+
+## Project Structure
+
+```bash
+stock-market-analysis
+├── output/                          # Directory containing PNG images of visualizations
+├── additional-research.ipynb        # Jupyter Notebook analyzing 5-day period stock data
+├── stock-market-analysis.ipynb      # Main project file analyzing yearly stock data
+```
 
 
 ---
