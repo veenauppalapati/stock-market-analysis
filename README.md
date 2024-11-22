@@ -30,6 +30,7 @@ stock-market-analysis
 ├── output/                          # Directory containing PNG images of visualizations
 ├── additional-research.ipynb        # Jupyter Notebook analyzing 5-day period stock data
 ├── stock-market-analysis.ipynb      # Main project file analyzing yearly stock data
+├── stock-data-tool                  # This is the code for the interactive tool that generates historical stock data for closing prices
 ```
 
 
